@@ -31,12 +31,12 @@ body {
 h1{
     font-size: 3em;
 }
-th {
+.menu {
     border: 3px solid black;
     background-color: greenyellow;
     font-size: 2.5ex;
 }
-th:hover{
+.menu:hover{
     background-color: green;
 }
 a:link{
@@ -63,4 +63,8 @@ p{
 .imagen2{
     width: 250px;
     height: 150px;
+}
+.tablemisteri, .tablepuçol , th, td{
+    border: 3px solid black;
+    border-collapse: collapse;  
 }
