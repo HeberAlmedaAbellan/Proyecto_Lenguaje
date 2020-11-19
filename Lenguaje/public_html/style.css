@@ -47,12 +47,15 @@ ul {
 li {
   float: left;
 }
+.separada {
+    float:right;
+}
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px;
   text-decoration: none;
 }
 
