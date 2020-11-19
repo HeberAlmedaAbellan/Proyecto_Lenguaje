@@ -4,9 +4,17 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 17 nov. 2020, 15:39:44
-    Author     : heber
+    Created on : 19-nov-2020, 11:58:30
+    Author     : cristianelx
 */
+
+
+body {
+    
+  text-align: center;  
+    
+}
+
 
 #cabecera{
     margin:auto;
