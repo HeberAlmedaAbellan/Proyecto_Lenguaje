@@ -14,7 +14,7 @@ body {text-align: center; }
 
 #cabecera{margin:auto; width: 35%; }
 
-#menu{margin:auto; width: 50%;}
+#menu{margin:auto; width: 70%;}
 
 #contenido{margin:auto; width: 72%; }
 
@@ -29,7 +29,7 @@ a:visited{color:green;}
 
 a:hover{color:greenyellow;}
 
-.imagen{width: 1000px; height: 350px;}
+.imagen{width: 1000px; height: 450px;}
 
 p{ font-family:Arial, Helvetica, sans-serif; text-align: center;}
 
