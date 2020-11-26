@@ -19,8 +19,7 @@ body {text-align: center; }
 #contenido{margin:auto; width: 72%; }
 
 h1{font-size: 3em; text-shadow: 7px 4px 5px greenyellow}
-
-
+h2{font-size: 2em; font-weight: bold;}
 
 
 a:link{color:white;}
@@ -29,15 +28,30 @@ a:visited{color:green;}
 
 a:hover{color:greenyellow;}
 
-.imagen{width: 1000px; height: 450px;}
 
 p{ font-family:Arial, Helvetica, sans-serif; text-align: center;}
+
+
+.imagen{width: 1000px; height: 450px;}
 
 .imagen1{ width: 400px; height: 350px; }
 
 .imagen2{ width: 250px; height: 150px;}
 
-.tablemisteri, .tablepuçol , th, td{ border: 3px solid black; border-collapse: collapse;}
+.imagen3{ width: 200px; height: 100px;}
+
+.imagen4{ width: 600px; height: 300px;}
+
+.imagen5{width: 500px; height: 300px;}
+
+
+
+.tablemisteri, .tablepuçol { margin:auto;}
+
+.tablemisteri, .tablepuçol, tr, th, td { border: 3px solid black; border-collapse: collapse;empty-cells: hide;}
+
+th {background: #f77248;}
+
 
 
 /*menu*/
