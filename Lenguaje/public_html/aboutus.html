@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+         <form id="formulari" action="programa.php" method="post">
+
+        <fieldset>
+        <legend>Give us a feedback</legend>
+
+            <p>Name: <input type="text" name="name" /></p>
+
+            <p><input type="checkbox" name="expert" value="esexpert" />I am from Elche</p>
+        
+    
+            <p>Do you like Elche?</p>
+            <p>I like it<input type="radio" name="satisfaccio" value="agrada"/></p>
+            <p>more or less<input type="radio" name="satisfaccio" value="mes o menys"/></p>
+            <p>I don't like it<input type="radio" name="satisfaccio" value="noagrada"/></p>
+    
+            <p>Write a personal opinion about the city and about our website:</p>
+            <p><textarea rows="5" cols="70" name="opinio"></textarea></p>
+    
+            <p>Which page of our website has interested you the most?:
+                <select name="pages">
+                <option value="neutre">none</option>
+                <option value="history">History</option>
+                <option value="heritage">Heritage</option>
+                <option value="monuments">Monuments</option>
+                <option value="gastronomy">Gastronomy</option>
+                <option value="nature">Nature</option>
+                <option value="festivities">Festivities</option>
+                </select>
+            </p>
+
+        </fieldset>
+
+        <p><input type="submit" name="sendd" value="send"/> <input type="reset" name="deletee" value="delete"/></p>
+
+    </form>
+    </body>
+</html>
