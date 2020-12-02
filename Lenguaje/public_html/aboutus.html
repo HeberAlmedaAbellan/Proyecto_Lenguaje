@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Elche</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="Stylesheet" type="text/css" media="screen" />
+    </head>
+    <body>
+        <div id="cabecera">
+                <h1>Elche, a beautiful city</h1>
+            </div>
+        
+        <div id="menu">
+                 <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./history.html">History</a></li>
+                <li><a href="./heritageofhumanity.html">Heritage of Humanity</a></li>
+                <li><a href="./monuments.html">Monuments</a></li>
+                <li><a href="./nature.html">Nature</a></li>
+                <li><a href="./gastronomy.html">Gastronomy</a></li>
+                <li><a href="./localfestivity.html">Festivities</a></li>
+                <li class="separada"><a href="./aboutus.html">About us</a></li>
+                </ul>
+            </div>
+        
+        <div id="contenido">
+        <p><strong>About us:</strong>We are Cristian, Cristina and Heber, DAW Higher Grade students, and this is our page about Elche,<br/> our city, I hope you like it and we would appreciate your opinion about our page to continue improving it day by day.</p>
+        <p><strong>Telephone:</strong>966 91 22 60</p>
+        <p><strong>Address:</strong> Carrer Illueca, 28, 03206 Elx, Alicante</p>
+        <p> <strong>E-mail:</strong>elchelovers@gmail.com</p>
+        </div>
+        
+        <form id="formulari" action="programa.php" method="post">
+
+        <fieldset>
+        <legend>Give us a feedback</legend>
+
+            <p>Name: <input type="text" name="name" /></p>
+
+            <p><input type="checkbox" name="expert" value="esexpert" />I am from Elche</p><br/>
+        
+    
+            <p>Do you like Elche?</p>
+            <p>I like it<input type="radio" name="satisfaccio" value="agrada"/></p>
+            <p>more or less<input type="radio" name="satisfaccio" value="mes o menys"/></p>
+            <p>I don't like it<input type="radio" name="satisfaccio" value="noagrada"/></p><br/>
+    
+            <p>Write a personal opinion about the city and about our website:</p>
+            <p><textarea rows="5" cols="70" name="opinio"></textarea></p><br/>
+    
+            <p>Which page of our website has interested you the most?:
+                <select name="pages">
+                <option value="neutre">none</option>
+                <option value="history">History</option>
+                <option value="heritage">Heritage</option>
+                <option value="monuments">Monuments</option>
+                <option value="gastronomy">Gastronomy</option>
+                <option value="nature">Nature</option>
+                <option value="festivities">Festivities</option>
+                </select>
+            </p>
+
+        </fieldset>
+
+        <p><input type="submit" name="sendd" value="send"/> <input type="reset" name="deletee" value="delete"/></p>
+     
+    </form>
+    </body>
+</html>
