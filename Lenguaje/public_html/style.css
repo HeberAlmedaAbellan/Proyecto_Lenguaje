@@ -13,17 +13,9 @@ body {text-align: center;
       background-color: #E8F8F5 ;
 }
 
-#cabecera{margin:auto; width: 35%; }
+.cabecera{margin:auto; width: 35%; }
 
-#menu{margin:auto; width: 70%;}
-
-#contenido{margin:auto; width: 72%; }
-
-#formulari{margin: auto; width: 25%;}
-
-h1{font-size: 3em; text-shadow: 7px 4px 5px greenyellow}
-h2{font-size: 2em;}
-
+.contenido{margin:auto; width: 72%; }
 
 a:link{color:white;}
 
@@ -31,14 +23,19 @@ a:visited{color:green;}
 
 a:hover{color:greenyellow;}
 
-
+/*estilos*/
+h1{font-size: 3em; text-shadow: 7px 4px 5px greenyellow}
+h2{font-size: 2em;}
 p{ font-family:Arial, Helvetica, sans-serif; text-align: center;}
 
+
+/*tablas*/
 .tablemisteri, .tablepuçol, tr, th, td {margin:auto; border: 3px solid black; border-collapse: collapse;}
 
 th {background: #f77248;}
 
-
+/*formulario*/
+#formulari{margin: auto; width: 25%;}
 
 /*menu*/
 ul {
@@ -68,13 +65,16 @@ li a:hover {
   background-color: #111;
 }
 
+#menu{margin:auto; width: 70%;}
+
+/*posicion logo*/
 .logo {
     position:absolute;
     top:0;
     left:0;
     
 }
-
+/*cajas decorativas*/
 .caja {   
 text-align: center; 
 background: #D1F2EB; 
