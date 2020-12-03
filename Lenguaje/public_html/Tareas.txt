@@ -11,6 +11,7 @@ carpeta recursos y redimensiones de fotos=Cristian Morcillo
 localfestivities=Heber
 aboutus=Heber
 menus de las páginas=Heber
+logo head=Heber
 
 css
 links=Cristina Franco/Heber
