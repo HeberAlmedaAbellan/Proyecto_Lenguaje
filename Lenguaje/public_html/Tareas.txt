@@ -1,0 +1,22 @@
+xHtml
+index=Cristina Franco
+heritageofhumanity=Cristina Franco
+gastronomy=Cristina Franco
+nature=Cristina Franco
+
+monuments=Cristian Morcillo
+history=Cristian Morcillo
+carpeta recursos y redimensiones de fotos=Cristian Morcillo
+
+localfestivities=Heber
+aboutus=Heber
+menus de las páginas=Heber
+
+css
+links=Cristina Franco/Heber
+tablas=Cristina Franco
+menu=Heber
+cajas=Heber/Cristian Morcillo
+estilos=Cristina Franco
+posicion body/contenido/cabecera=Cristina Franco
+posicion logo(etwinning)=Cristian Morcillo
