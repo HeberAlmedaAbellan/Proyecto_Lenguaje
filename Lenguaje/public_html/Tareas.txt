@@ -20,4 +20,4 @@ menu=Heber
 cajas=Heber/Cristian Morcillo
 estilos=Cristina Franco
 posicion body/contenido/cabecera=Cristina Franco
-posicion logo(etwinning)=Cristian Morcillo
+posicion logo(etwinning)=Cristian Morcillo/Heber
